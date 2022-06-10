@@ -1,0 +1,213 @@
+html {
+background-image: url(https://img.freepik.com/free-photo/rumpled-beige-background-real-texture-of-the-wrapping-texture_370059-2870.jpg);
+background-position:center;
+background-repeat:no-repeat;
+background-size: 120%;
+background-attachment: fixed;
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  color:rgb(248, 241, 241);
+  text-decoration: dotted;
+  font-size: large;
+  font-weight: bold;
+  background-color: rgb(180, 153, 153);
+  border-color: black;
+  }
+
+.header > h1 {
+  font: bold 50px Courier;
+  color: #faf5fc;
+  text-shadow: #62015f 3px 3px 0, #851871 7px 7px 0, 
+               #6c0675 7px 7px 0, #6b0d63 7px 7px 0, 
+               #7a0680 7px 7px 0;
+ font-stretch:wider;
+  margin:2%;
+  border-radius: 0%;
+  border-color:  #501164;
+  border-style:double;
+   padding: 10px;
+}
+
+.first > a {
+  border-style:double;
+  padding: 10px;
+  color:rgb(248, 241, 241);
+  flex-wrap: wrap;
+}
+
+.first > a:hover {
+  color: #79f2e4;
+  transform: scale(1.1);
+  transition: all 0.1s ease;             
+  }
+  
+.header > h1:hover {
+color: #f8f4f9;
+text-shadow: #cad5e2 1px 1px 0, #cad5e2 2px 2px 0, 
+               #cad5e2 3px 3px 0, #cad5e2 4px 4px 0, 
+               #cad5e2 5px 5px 0;
+transform: scale(1.1);
+transition: all 0.3s ease;             
+}
+
+
+.content1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size:medium;
+  font-weight: bold;
+  color:#501164;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin:40px;
+  margin-bottom: 77px;
+}
+
+.content1 > div > a > img {
+  padding: 1px;
+  margin: 1px;
+  border-style:solid;
+  border-color:#6e1399;
+  width: 150px;
+  height: 220px; 
+}
+.content1 > div > a > img:hover {
+ text-shadow: #cad5e2 1px 1px 0, #cad5e2 2px 2px 0, 
+               #cad5e2 3px 3px 0, #cad5e2 4px 4px 0, 
+               #cad5e2 5px 5px 0;
+transform: scale(1.1);
+transition: all 0.5s ease;    
+}
+
+.content2 > div > a > img:hover {
+  text-shadow: #cad5e2 1px 1px 0, #cad5e2 2px 2px 0, 
+                #cad5e2 3px 3px 0, #cad5e2 4px 4px 0, 
+                #cad5e2 5px 5px 0;
+ transform: scale(1.1);
+ transition: all 0.5s ease;    
+ }
+ 
+
+.content2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: medium;
+  font-weight: bold;
+  color:#501164;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin: 40px;
+  margin-bottom: 77px;
+}
+
+.content2 > div > a > img {
+  padding: 1px;
+  margin: 1px;
+  border-style:solid;
+  width: 150px;
+  height: 220px; 
+}
+
+.content1 > div > p {
+  margin: 0;
+}
+.content2 > div > p {
+  margin: 0;
+}
+
+
+.footer {
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  font-size:x-large;
+  font-weight: bolder;
+  color:#501164;
+  font-weight: bold;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-shadow: #cad5e2 1px 1px 0, #cad5e2 2px 2px 0, 
+               #cad5e2 3px 3px 0, #cad5e2 4px 4px 0, 
+               #cad5e2 5px 5px 0;
+}
+
+.text1, .text2 {
+  color:#501164;
+  font-weight: bold;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-shadow: #cad5e2 1px 1px 0, #cad5e2 2px 2px 0, 
+               #cad5e2 3px 3px 0, #cad5e2 4px 4px 0, 
+               #cad5e2 5px 5px 0;
+  font-size: xx-large;
+}
+
+.text1:hover {
+  color: #17897a;
+}
+
+.text2:hover {
+  color: #17897a;
+}
+
+.content1>div>p:nth-of-type(2n) {
+  color:rgb(190, 141, 210);
+  font-size: small;
+  margin-bottom: 15px;
+ }
+
+
+.content2>div>p:nth-of-type(2n) {
+  color:rgb(190, 141, 210);
+  font-size: small;
+  margin-bottom: 15px;
+ }
+
+
+
+ @media (min-width:768px) and (max-width:1100px) {
+  .header {
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding: 0px;
+    margin: 0px;
+  }
+  .first {
+    padding: 10px;
+    margin: 10px;
+    justify-content:center;
+    align-items:flex-start;
+  
+  }
+  .header > h1 {
+    font-size: 45px;
+  }
+}
+ 
+
+ @media (max-width:767px) {
+  .header {
+    flex-direction:column;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+  }
+  .first {
+    padding: 10px;
+    margin: 10px;
+    justify-content:flex-start;
+  
+  }
+  .header > h1 {
+    font-size: 45px;
+  }
+}
+
+ 
