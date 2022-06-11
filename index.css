@@ -1,5 +1,6 @@
 html {
-background-image: url(https://img.freepik.com/free-photo/rumpled-beige-background-real-texture-of-the-wrapping-texture_370059-2870.jpg);
+/* background-image: url(https://img.freepik.com/free-photo/rumpled-beige-background-real-texture-of-the-wrapping-texture_370059-2870.jpg); */
+background-color: rgb(246, 246, 220);
 background-position:center;
 background-repeat:no-repeat;
 background-size: 120%;
@@ -39,6 +40,7 @@ background-attachment: fixed;
   padding: 10px;
   color:rgb(248, 241, 241);
   flex-wrap: wrap;
+  text-decoration: none;
 }
 
 .first > a:hover {
@@ -173,17 +175,22 @@ transition: all 0.5s ease;
 
  @media (min-width:768px) and (max-width:1100px) {
   .header {
-    flex-direction:column;
+    flex-direction:row;
     justify-content:center;
     align-items:center;
     padding: 0px;
     margin: 0px;
+  }
+  .header > h1 {
+    flex-basis: 100%;
+    text-align: center;
   }
   .first {
     padding: 10px;
     margin: 10px;
     justify-content:center;
     align-items:flex-start;
+
   
   }
   .header > h1 {
@@ -192,7 +199,7 @@ transition: all 0.5s ease;
 }
  
 
- @media (max-width:767px) {
+ @media (max-width:768px) {
   .header {
     flex-direction:column;
     align-items: center;
