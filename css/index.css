@@ -128,13 +128,13 @@ html {
       padding: 0px;
       margin: 0px;
     }
-    .first {
+    /* .first {
       padding: 10px;
       margin: 10px;
       justify-content:center;
-      align-items:flex-start;
+      align-items:flex-start; */
     
-    }
+    
     .header > h1 {
       font-size: 35px;
       padding: 2px;
@@ -150,17 +150,18 @@ html {
       padding: 0px;
       margin: 0px;
     }
-    .first {
+    /* .first {
       padding: 10px;
       margin: 10px;
-      justify-content:flex-start;
+      justify-content:flex-start; */
     
-    }
+    
     .header > h1 {
       font-size: 33px;
       padding: 0px;
       margin: 0px;
     }
   }
+  
   
    
